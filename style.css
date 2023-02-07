@@ -43,7 +43,7 @@ backdrop-filter: blur(5px);
 }
 
 .data-card h1{
-    font-size: 100%;
+    font-size: 41px;
     font-weight: 700;
     margin-bottom: 23px;
     position: absolute;
@@ -65,12 +65,13 @@ color: #909090;
     /* margin-top: 5px; */
     position: absolute;
     bottom: 48px;
-    left: 136px;
+/*     left: 136px; */
     /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 35px;
+    font-size: 18px;
 }
 .data-card a{
     position: relative;
@@ -299,6 +300,10 @@ color: #909090;
 }
 .data-card a{
   width: 100%;
+}
+.data-card h1{
+  font-size: 25px;
+  
 }
 
 .prof-card{
